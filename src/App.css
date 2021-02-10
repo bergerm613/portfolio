@@ -1,38 +1,128 @@
-.App {
+.comfortaa {
+  font-family: 'Comfortaa', cursive;
+}
+
+.nav {
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.nav_items {
+  position: absolute;
+  right: 40px;
+  top: 50px;
+}
+
+.nav_item {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 50px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav_item:hover {
+  color: lightgray;
+}
+
+.me_image {
+  background: url(images/backgrounds/me.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home_text {
+  position: absolute;
+  left: 50%;
+  top: 40%;   
+}
+
+.hey_there {
+  font-family: 'Sonsie One', cursive;
+  font-size: 75px;
+}
+
+.im_michelle {
+  font-family: monospace;
+
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 60px;
+}
+
+/* TODO: DO I NEED THESE?? */
+
+.icons {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.margin_right_icon {
+  margin-right: 30px;
+}
+
+.email {
+  margin-top: 20px;
+}
+.linkedin {
+  margin-top: 30px;
+}
+.resume {
+  margin-top: 40px;
+}
+.github {
+  margin-top: 50px;
+}
+
+
+.about_page {
+  overflow: hidden;
+  position: relative;
+}
+
+.ocean_image {
+  background: url(images/backgrounds/ocean.jpg);
+  height: 750px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  position: relative;
+  z-index: -1;
+}
+
+.rectangle {
+  background-color: white;
+  height: 600px;
+  width: 945px;
+
+  position: absolute;
+  left: 50%;
+  top: 150px;
+  transform: translate(-50%, 0%) rotate(6deg);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about_title {
+  padding-top: 60px;
+  transform: rotate(-6deg);
+  font-size: 34px;
+  color: #555555;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about_text {
+  font-family: 'Roboto', sans-serif;
+  margin: 40px 80px;
+  transform: rotate(-6deg);
+  font-size: 18px;
+  text-align: justify;
+  line-height: 32px;
 }
