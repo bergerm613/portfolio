@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { Link, withRouter } from 'react-router-dom'
 import logo from './images/logo.png'
 
 class Nav extends Component {
     render() {
+        const textColorClass = this.props.location.pathname === '/experience' ? 'black' : 'white'
+
         return (
             <div className="nav">
                 <Link to="/">
@@ -11,13 +13,13 @@ class Nav extends Component {
                 </Link>
 
                 <div className="nav_items">
-                    <Link to="/about" className='comfortaa nav_item'>Who's Michelle</Link>
-                    <Link to="/experience" className='comfortaa nav_item'>What's She Done</Link>
-                    <Link to="/" className='comfortaa nav_item'>Ok, How Can I Reach Her</Link>
+                    <Link to="/about" className={'comfortaa nav_item ' + textColorClass}>Who's Michelle</Link>
+                    <Link to="/experience" className={'comfortaa nav_item ' + textColorClass}>What's She Done</Link>
+                    <Link to="/" className={'comfortaa nav_item ' + textColorClass}>Ok, How Can I Reach Her</Link>
                 </div>
             </div>
         );
     }
 }
 
-export default Nav;
+export default withRouter(Nav);
