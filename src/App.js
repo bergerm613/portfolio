@@ -10,7 +10,7 @@ import ContactPage from './pages/ContactPage'
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Nav/>
 
           <Switch>
