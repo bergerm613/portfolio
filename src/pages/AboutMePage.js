@@ -34,7 +34,7 @@ class AboutMePage extends Component {
 
                         When I'm not knee deep in code, I can be found curled up with 
                         <Tooltip theme="light" title="Any will do, but memoirs are my favorite."> a book</Tooltip>, 
-                        or making the world's best <Tooltip theme="light" html={<img src={cinnamon} alt="" height='35px' />}>cinnamn buns</Tooltip> (no lie).
+                        or making the world's best <Tooltip theme="light" html={<img src={cinnamon} alt="" height='35px' />}>cinnamon buns</Tooltip> (no lie).
                     </div>
                 </div>
             </div>

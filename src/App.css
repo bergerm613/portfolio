@@ -75,7 +75,7 @@ a {
 .im_michelle {
   margin-top: 30px;
   margin-left: 40px;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .about_page {
@@ -140,7 +140,7 @@ a {
 
 .work_title {
   font-size: 57px;
-  transform: translate(-25%, 13px);
+  transform: translate(-20%, 13px);
 }
 
 .company_wrapper {
@@ -152,7 +152,7 @@ a {
   height: 100%;
 }
 .company_wrapper:hover .opacity_zero {
-  opacity: 100%;
+  opacity: 1.0;
 }
 .company_wrapper:hover .company_logo {
   height: 50px;
@@ -163,7 +163,7 @@ a {
 
 
 .opacity_zero {
-  opacity: 0;
+  opacity: .0;
   transition: 1s;
 }
 
@@ -263,7 +263,7 @@ a {
 
 .contact_page {
   background-color: green;
-  padding-top: 225px;
+  padding-top: 190px;
   height: calc(100vh - 225px);
 
   background: linear-gradient(#3D3D3D -52.38%, #FFFFFF 52.26%);
