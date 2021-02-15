@@ -36,6 +36,8 @@ a {
   font-size: 18px;
   margin-left: 50px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  transition: 0.4s;
 }
 .nav_item.white {
   color: white;
@@ -44,11 +46,15 @@ a {
   color: black;
 }
 .nav_item:hover {
-  color: lightgray;
+  color: #7b7b7b;
+
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .me_image {
-  background: url(images/backgrounds/me.jpg);
+  background: url(images/backgrounds/me.png);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -96,8 +102,19 @@ a {
   position: absolute;
   left: 50%;
   top: 150px;
-  transform: translate(-50%, 0%) rotate(6deg);
   text-align: center;
+  
+  transform: translateX(-50%);
+  transition: cubic-bezier(.56,.25,.83,.78);
+  transition-duration: .5s;
+}
+.rectangle:hover {
+  transform: translate(-50%, 0%) rotate(6deg);
+}
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
 }
 
 .about_title {
@@ -117,14 +134,81 @@ a {
 
 .exp_page {
   text-align: center;
-  padding-top: 225px;
+  padding-top: 185px;
   padding-bottom: 100px;
 }
 
 .work_title {
-  font-size: 38px;
-  font-family: monospace;
+  font-size: 57px;
+  transform: translate(-25%, 13px);
+}
 
+.company_wrapper {
+  font-size: 18px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.company_wrapper:hover .opacity_zero {
+  opacity: 100%;
+}
+.company_wrapper:hover .company_logo {
+  height: 50px;
+  margin: 0px auto;
+  filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+}
+
+
+.opacity_zero {
+  opacity: 0;
+  transition: 1s;
+}
+
+.company_logo {
+  display: block;
+  margin: 40px auto 0 auto;
+  height: 175px;
+  filter: brightness(200);
+  -webkit-filter: brightness(200);
+  transition: 1s;
+}
+
+@keyframes pulse {
+	0% {transform: scale(0.95);}
+	70% {transform: scale(1);}
+	100% {transform: scale(0.95);}
+}
+
+.company_desc {
+  padding-top: 12px;
+  font-style: italic;
+
+  width: 70%;
+  margin: 0 auto;
+}
+
+.company_par {
+  width: 80%;
+  margin: 0 auto;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.check_it_out {
+  color: white;
+  border: 2px solid white;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px 15px;
+  transition: .5s ease-out;
+}
+.check_it_out:hover {
+  -webkit-transform: scale(.9);
+  -ms-transform: scale(.9);
+  transform: scale(.9);
 }
 
 .indicative_box {
@@ -132,6 +216,7 @@ a {
   width: 84%;
   height: 400px;
   margin: auto;
+  color: white;
 }
 
 .rotation_box {
@@ -141,6 +226,7 @@ a {
   
   display: inline-block; 
   vertical-align: top;
+  color: white;
 }
 
 .gwc_box {
@@ -150,6 +236,7 @@ a {
   
   display: inline-block; 
   vertical-align: top;
+  color: white;
 }
 
 .row_two {
