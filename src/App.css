@@ -10,11 +10,13 @@
 
 a {
   text-decoration: none;
+  display:inline-block;
 }
 
 .nav {
   position: relative;
   z-index: 1;
+  height: 0;
 }
 
 .logo {
@@ -116,6 +118,7 @@ a {
 .exp_page {
   text-align: center;
   padding-top: 225px;
+  padding-bottom: 100px;
 }
 
 .work_title {
@@ -154,6 +157,22 @@ a {
   margin-bottom: 50px;
 }
 
+.github_button {
+  text-decoration: none;
+  color: #22223B;
+  padding: 15px;
+  border: 2px solid #22223B;
+  font-weight: 600;
+  font-size: 22px;
+
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.github_button:hover{
+  transform: rotateY(180deg);
+}
+
 
 .contact_page {
   background-color: green;
@@ -182,10 +201,6 @@ a {
   font-size: 22px;
   line-height: 35px;
   margin: 40px;
-}
-
-.empty {
-  flex: 1;
 }
 
 .icon_group {

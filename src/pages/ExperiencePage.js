@@ -20,6 +20,8 @@ class ExperiencePage extends Component {
                         blahblahblah blahblahblah blahblahblah blahblahblah blahblahblah blahblahblah blahblahblah blahblahblah 
                     </div>
                 </div>
+
+                <a href="https://github.com/bergerm613" target="_blank" className="github_button comfortaa">and check out my github<br/> for plenty of projects</a>
             </div>
         );
     }
