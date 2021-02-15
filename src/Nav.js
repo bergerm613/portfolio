@@ -15,7 +15,7 @@ class Nav extends Component {
                 <div className="nav_items">
                     <Link to="/about" className={'comfortaa nav_item ' + textColorClass}>Who's Michelle</Link>
                     <Link to="/experience" className={'comfortaa nav_item ' + textColorClass}>What's She Done</Link>
-                    <Link to="/" className={'comfortaa nav_item ' + textColorClass}>Ok, How Can I Reach Her</Link>
+                    <Link to="/contact" className={'comfortaa nav_item ' + textColorClass}>Ok, Where Can I Find Her</Link>
                 </div>
             </div>
         );

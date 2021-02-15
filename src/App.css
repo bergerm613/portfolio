@@ -1,6 +1,16 @@
 .comfortaa {
   font-family: 'Comfortaa', cursive;
 }
+.monospace {
+  font-family: 'Source Code Pro', monospace;
+}
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
 
 .nav {
   position: relative;
@@ -55,39 +65,10 @@
 }
 
 .im_michelle {
-  font-family: monospace;
-
   margin-top: 30px;
   margin-left: 40px;
   font-size: 60px;
 }
-
-/* TODO: DO I NEED THESE?? */
-
-.icons {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-}
-
-.margin_right_icon {
-  margin-right: 30px;
-}
-
-.email {
-  margin-top: 20px;
-}
-.linkedin {
-  margin-top: 30px;
-}
-.resume {
-  margin-top: 40px;
-}
-.github {
-  margin-top: 50px;
-}
-
-
 
 .about_page {
   overflow: hidden;
@@ -125,7 +106,6 @@
 }
 
 .about_text {
-  font-family: 'Roboto', sans-serif;
   margin: 40px 80px;
   transform: rotate(-6deg);
   font-size: 18px;
@@ -172,4 +152,75 @@
 .row_two {
   text-align: center;
   margin-bottom: 50px;
+}
+
+
+.contact_page {
+  background-color: green;
+  padding-top: 225px;
+  height: calc(100vh - 225px);
+
+  background: linear-gradient(#3D3D3D -52.38%, #FFFFFF 52.26%);
+  mix-blend-mode: normal;
+
+  display: flex;
+  justify-content: center;
+}
+
+.contact_words {
+  text-align: end;
+  flex: 1;
+}
+
+.im_glad {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 40px;
+}
+
+.contact_par {
+  font-size: 22px;
+  line-height: 35px;
+  margin: 40px;
+}
+
+.empty {
+  flex: 1;
+}
+
+.icon_group {
+  display: flex;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  flex: 1.2;
+}
+
+.icon_img {
+  margin-bottom: 30px;
+  margin-right: 20px;
+
+  transition: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1.7);
+}
+
+.icon_words {
+  font-size: 62px;
+  font-family: 'Sonsie One', cursive;
+  text-decoration: none;
+  color: black;
+
+  opacity: 0%;
+  transform: translateX(-100px);
+  transition: 0.6s cubic-bezier(0.34, 1.56, 0.64, 2.7);
+}
+.icon_group:hover .icon_words {
+  opacity: 100%;
+  transform: translateX(0px);
+}
+.icon_group:hover .icon_img {
+  -webkit-transform: scale(.8);
+  -ms-transform: scale(.8);
+  transform: scale(.8);
 }
