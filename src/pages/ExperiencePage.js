@@ -13,7 +13,7 @@ class ExperiencePage extends Component {
                     <BoxContent
                         logo={indicative}
                         description="a customer analytics platform"
-                        languages="REACT | ANGULAR | JAVASCRIPT | TYPESCRIPT"
+                        languages="REACT | ANGULAR | TYPESCRIPT"
                         link="https://indicative.com">
                         I was very fortunate to make a real impact while interning at Indicative
                         with a mixture of feature implementations, optimizations, and bug fixes.
@@ -25,7 +25,7 @@ class ExperiencePage extends Component {
                         <BoxContent
                             logo={rotation}
                             description="world’s first streetwear rental company"
-                            languages="REACT | RUBY ON RAILS | FIGMA | HTML/CSS"
+                            languages="REACT | RUBY ON RAILS | FIGMA"
                             link="https://therotation.club">
                             At The Rotation, I developed user-friendly features in React and Ruby on Rails,
                             including Netflix-style next package queue, catalog search,
@@ -38,7 +38,7 @@ class ExperiencePage extends Component {
                             description="nonprofit focused on the support and increase of women in computer science"
                             languages="ARDUINO-C | LILYPAD ARDUINO | SOFT CURCUITS"
                             link="https://girlswhocode.com/">
-                            As a teacher’s assistant at GWC Campus program, 
+                            As a teacher’s assistant at the GWC Campus program, 
                             I was able to help guide and support a class of middle school future-engineers 
                             as they learned the basics of Arduino coding and wearable technology.
                         </BoxContent>
