@@ -32,18 +32,13 @@ a {
 }
 
 .nav_item {
+  color: white;
   text-decoration: none;
   font-size: 18px;
   margin-left: 50px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   transition: 0.4s;
-}
-.nav_item.white {
-  color: white;
-}
-.nav_item.black {
-  color: black;
 }
 .nav_item:hover {
   color: #7b7b7b;
@@ -133,6 +128,9 @@ a {
 }
 
 .exp_page {
+  background: linear-gradient(#3D3D3D -52.38%, #FFFFFF 52.26%);
+  mix-blend-mode: normal;
+
   text-align: center;
   padding-top: 185px;
   padding-bottom: 100px;
@@ -262,7 +260,6 @@ a {
 
 
 .contact_page {
-  background-color: green;
   padding-top: 190px;
   height: calc(100vh - 225px);
 
