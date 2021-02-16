@@ -15,9 +15,9 @@ class AboutMePage extends Component {
                 <div className="ocean_image"><Sparkle fadeOutSpeed={30}/></div>
                 <div className="rectangle">
                     <div className="about_title monospace">All About Me</div>
-                    <div className="about_text roboto">
+                    <div className="about_text">
                         Hello there, I see you have found my website. 
-                        <Tooltip theme="light" html={<img src={hand} alt="" height='35px' />}> Welcome!</Tooltip> I do hope you enjoy your stay.
+                        <Tooltip theme="light" html={<img src={hand} alt="" height='35px' />}> Welcome!</Tooltip> I hope you enjoy your stay.
 
                         I'm Michelle, and I just graduated with a Computer Science degree from
                         <Tooltip theme="light" html={<img src={touro} alt="" height='35px' />}> Touro College</Tooltip>. 

@@ -7,7 +7,7 @@ class ExperiencePage extends Component {
     render() {
         return (
             <div className="exp_page">
-                <div className="work_title comfortaa">Work Experience</div>
+                <div className="work_title monospace">Work Experience</div>
 
                 <div className="indicative_box">
                     <BoxContent
