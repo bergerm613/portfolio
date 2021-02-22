@@ -48,6 +48,9 @@ a {
   transform: scale(1.1);
 }
 
+/* @media (max-width: ) */
+
+
 .me_image {
   background: url(images/backgrounds/me.png);
   height: 100vh;
@@ -324,4 +327,156 @@ a {
   -webkit-transform: scale(.8);
   -ms-transform: scale(.8);
   transform: scale(.8);
+}
+
+
+
+@media (max-width: 850px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    position: relative;
+    left: auto;
+    top: auto;
+    height: 80px;
+    padding: 10px 0 0 10px;
+  }
+
+  .nav_items {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    position: relative;
+
+    right: auto;
+    top: auto;
+
+    padding: 10px 10px 0 0;
+  }
+
+  .nav_item {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+  }
+
+  .me_image {
+    background-image: linear-gradient(to right top, #4773b4, #687aac, #7d82a4, #8c8b9d, #969696);
+  }
+
+  .home_text {
+    position: relative;
+    text-align: center;
+    left: 0;
+  }
+  
+  .hey_there {
+    font-size: 38px;
+  }
+
+  .im_michelle {
+    font-size: 26px;
+  }
+
+
+  .ocean_image {
+    height: 920px;
+    padding-bottom: 150px;
+  }
+
+  .rectangle {
+    height:920px;
+    width: 100vw;
+  }
+
+  .about_title{
+    transform: rotate(0deg);
+  }
+  .about_text{
+    transform: rotate(0deg);
+    margin: 40px 30px;
+  }
+
+
+  .work_title {
+    font-size: 24px;
+  }
+
+  .opacity_zero {
+    opacity: 1.0;
+  }
+
+  .company_logo {
+    height: 40px;
+    margin: 0px auto;
+  }
+  
+  .company_par {
+    font-size: 16px;
+  }
+
+  .company_desc {
+    font-size: 14px;
+  }
+
+  .languages {
+    font-size: 14px;
+  }
+
+  .github_button {
+    font-size: 16px;
+  }
+
+
+  .contact_page {
+    display: block;
+  }
+
+  .contact_words {
+    text-align: center;
+  }
+
+  .icon_words {
+    display: none;
+  }
+
+  .icons {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1105px) {
+  .rotation_box {
+    width: 84%;
+  }
+  .gwc_box {
+    width: 84%;
+  }
+
+  .opacity_zero {
+    opacity: 1.0;
+  }
+
+  .company_logo {
+    height: 40px;
+    margin: 0px auto;
+  }
+
+  .work_title {
+    transform: translate(0, 0);
+  }
+}
+
+@media (max-width: 1160px) {
+  .hey_there {
+    font-size: 60px;
+  }
+
+  .im_michelle {
+    font-size: 30px;
+  }
 }

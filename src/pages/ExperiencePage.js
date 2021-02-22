@@ -61,7 +61,7 @@ const BoxContent = (props) => {
 
             <div className="opacity_zero company_par">{props.children}</div>
 
-            <div className="opacity_zero monospace">{props.languages}</div>
+            <div className="opacity_zero languages monospace">{props.languages}</div>
             <a className="opacity_zero check_it_out comfortaa" target="_blank" href={props.link}>check it out</a>
         </div>
     )
