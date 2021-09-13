@@ -13,6 +13,10 @@ a {
   display: inline-block;
 }
 
+.orange_text {
+  color: #af3800;
+}
+
 .nav {
   position: relative;
   z-index: 1;
@@ -41,14 +45,12 @@ a {
   transition: 0.4s;
 }
 .nav_item:hover {
-  color: #7b7b7b;
+  color: #af3800;
 
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
-
-/* @media (max-width: ) */
 
 .me_image {
   background: url(images/backgrounds/me.png);

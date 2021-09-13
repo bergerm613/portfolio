@@ -46,8 +46,11 @@ class AboutMePage extends Component {
             </Tooltip>
             and since then had wonderful opportunities to put that theory into
             practice, and contribute to an array of amazing teams and projects
-            (but more about that <Link to="/experience">here</Link>). When not
-            deep in code, I can often be found with
+            (but more about that{" "}
+            <Link to="/experience" className="orange_text">
+              here
+            </Link>
+            ). When not deep in code, I can often be found with
             <Tooltip
               theme="light"
               title="mostly non-fiction, but open to all recommendations"
@@ -67,8 +70,10 @@ class AboutMePage extends Component {
             <br />
             I've designed and built this website to show you a little of what I
             can do with web development. So take some time to look around, and{" "}
-            <Link to="/contact">don't hesitate to reach out</Link> - I'm always
-            happy to chat.
+            <Link to="/contact" className="orange_text">
+              don't hesitate to reach out
+            </Link>{" "}
+            - I'm always happy to chat.
           </div>
         </div>
       </div>
