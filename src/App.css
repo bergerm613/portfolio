@@ -161,10 +161,8 @@ a {
   opacity: 1;
 }
 .company_wrapper:hover .company_logo {
-  height: 50px;
+  width: 40%;
   margin: 0px auto;
-  filter: brightness(100%);
-  -webkit-filter: brightness(100%);
 }
 
 .opacity_zero {
@@ -175,10 +173,10 @@ a {
 .company_logo {
   display: block;
   margin: 40px auto 0 auto;
-  height: 175px;
   filter: brightness(200);
   -webkit-filter: brightness(200);
   transition: 1s;
+  width: 50%;
 }
 
 @keyframes pulse {
@@ -222,40 +220,41 @@ a {
   transform: scale(0.9);
 }
 
-.indicative_box {
+.background_navy {
   background-color: #22223b;
+}
+
+.background_light_blue {
+  background-color: #93bbe4;
+}
+
+.background_light_gray {
+  background-color: #bababa;
+}
+
+.background_burnt_orange {
+  background-color: #af3800;
+}
+
+.box_full_width {
   width: 84%;
   height: 400px;
   margin: auto;
   color: white;
 }
 
-.rotation_box {
-  background-color: #93bbe4;
+.box_half_width {
   width: 42%;
   height: 400px;
 
   display: inline-block;
   vertical-align: top;
   color: white;
-}
-
-.gwc_box {
-  background-color: #bababa;
-  width: 42%;
-  height: 400px;
-
-  display: inline-block;
-  vertical-align: top;
-  color: white;
-}
-
-.row_two {
-  text-align: center;
-  margin-bottom: 50px;
 }
 
 .github_button {
+  margin-top: 50px;
+
   text-decoration: none;
   color: #22223b;
   padding: 15px;
