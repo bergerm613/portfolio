@@ -1,16 +1,16 @@
 .comfortaa {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
 }
 .monospace {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
 }
 .roboto {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
   text-decoration: none;
-  display:inline-block;
+  display: inline-block;
 }
 
 .nav {
@@ -50,7 +50,6 @@ a {
 
 /* @media (max-width: ) */
 
-
 .me_image {
   background: url(images/backgrounds/me.png);
   height: 100vh;
@@ -62,11 +61,11 @@ a {
 .home_text {
   position: absolute;
   left: 50%;
-  top: 40%;   
+  top: 40%;
 }
 
 .hey_there {
-  font-family: 'Sonsie One', cursive;
+  font-family: "Sonsie One", cursive;
   font-size: 75px;
 }
 
@@ -101,25 +100,29 @@ a {
   left: 50%;
   top: 150px;
   text-align: center;
-  
+
   transform: translateX(-50%);
-  transition: cubic-bezier(.56,.25,.83,.78);
-  transition-duration: .5s;
+  transition: cubic-bezier(0.56, 0.25, 0.83, 0.78);
+  transition-duration: 0.5s;
 }
 .rectangle:hover {
   transform: translate(-50%, 0%) rotate(6deg);
 }
 
 @keyframes spin {
-  from {transform:rotate(0deg);}
-  to {transform:rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .about_title {
   padding-top: 60px;
   transform: rotate(-6deg);
   font-size: 34px;
-  color: #22223B;
+  color: #22223b;
 }
 
 .about_text {
@@ -131,7 +134,7 @@ a {
 }
 
 .exp_page {
-  background: linear-gradient(#3D3D3D -52.38%, #FFFFFF 52.26%);
+  background: linear-gradient(#3d3d3d -52.38%, #ffffff 52.26%);
   mix-blend-mode: normal;
 
   text-align: center;
@@ -148,14 +151,14 @@ a {
 
 .company_wrapper {
   font-size: 18px;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   height: 100%;
 }
 .company_wrapper:hover .opacity_zero {
-  opacity: 1.0;
+  opacity: 1;
 }
 .company_wrapper:hover .company_logo {
   height: 50px;
@@ -164,9 +167,8 @@ a {
   -webkit-filter: brightness(100%);
 }
 
-
 .opacity_zero {
-  opacity: .0;
+  opacity: 0;
   transition: 1s;
 }
 
@@ -180,9 +182,15 @@ a {
 }
 
 @keyframes pulse {
-	0% {transform: scale(0.95);}
-	70% {transform: scale(1);}
-	100% {transform: scale(0.95);}
+  0% {
+    transform: scale(0.95);
+  }
+  70% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.95);
+  }
 }
 
 .company_desc {
@@ -206,16 +214,16 @@ a {
   display: inline-block;
   margin: 0 auto;
   padding: 10px 15px;
-  transition: .5s ease-out;
+  transition: 0.5s ease-out;
 }
 .check_it_out:hover {
-  -webkit-transform: scale(.9);
-  -ms-transform: scale(.9);
-  transform: scale(.9);
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .indicative_box {
-  background-color: #22223B;
+  background-color: #22223b;
   width: 84%;
   height: 400px;
   margin: auto;
@@ -223,11 +231,11 @@ a {
 }
 
 .rotation_box {
-  background-color: #93BBE4;
+  background-color: #93bbe4;
   width: 42%;
   height: 400px;
-  
-  display: inline-block; 
+
+  display: inline-block;
   vertical-align: top;
   color: white;
 }
@@ -236,8 +244,8 @@ a {
   background-color: #bababa;
   width: 42%;
   height: 400px;
-  
-  display: inline-block; 
+
+  display: inline-block;
   vertical-align: top;
   color: white;
 }
@@ -249,9 +257,9 @@ a {
 
 .github_button {
   text-decoration: none;
-  color: #22223B;
+  color: #22223b;
   padding: 15px;
-  border: 2px solid #22223B;
+  border: 2px solid #22223b;
   font-weight: 600;
   font-size: 22px;
 
@@ -259,16 +267,15 @@ a {
   transition-duration: 1s;
 }
 
-.github_button:hover{
+.github_button:hover {
   transform: rotateY(180deg);
 }
-
 
 .contact_page {
   padding-top: 190px;
   height: calc(100vh - 225px);
 
-  background: linear-gradient(#3D3D3D -52.38%, #FFFFFF 52.26%);
+  background: linear-gradient(#3d3d3d -52.38%, #ffffff 52.26%);
   mix-blend-mode: normal;
 
   display: flex;
@@ -311,25 +318,23 @@ a {
 
 .icon_words {
   font-size: 62px;
-  font-family: 'Sonsie One', cursive;
+  font-family: "Sonsie One", cursive;
   text-decoration: none;
   color: black;
 
-  opacity: 0.0;
+  opacity: 0;
   transform: translateX(-100px);
   transition: 0.6s cubic-bezier(0.34, 1.56, 0.64, 2.7);
 }
 .icon_group:hover .icon_words {
-  opacity: 1.0;
+  opacity: 1;
   transform: translateX(0px);
 }
 .icon_group:hover .icon_img {
-  -webkit-transform: scale(.8);
-  -ms-transform: scale(.8);
-  transform: scale(.8);
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
 }
-
-
 
 @media (max-width: 850px) {
   .nav {
@@ -363,7 +368,14 @@ a {
   }
 
   .me_image {
-    background-image: linear-gradient(to right top, #4773b4, #687aac, #7d82a4, #8c8b9d, #969696);
+    background-image: linear-gradient(
+      to right top,
+      #4773b4,
+      #687aac,
+      #7d82a4,
+      #8c8b9d,
+      #969696
+    );
   }
 
   .home_text {
@@ -371,7 +383,7 @@ a {
     text-align: center;
     left: 0;
   }
-  
+
   .hey_there {
     font-size: 38px;
   }
@@ -380,39 +392,37 @@ a {
     font-size: 26px;
   }
 
-
   .ocean_image {
     height: 920px;
     padding-bottom: 150px;
   }
 
   .rectangle {
-    height:920px;
+    height: 920px;
     width: 100vw;
   }
 
-  .about_title{
+  .about_title {
     transform: rotate(0deg);
   }
-  .about_text{
+  .about_text {
     transform: rotate(0deg);
     margin: 40px 30px;
   }
-
 
   .work_title {
     font-size: 24px;
   }
 
   .opacity_zero {
-    opacity: 1.0;
+    opacity: 1;
   }
 
   .company_logo {
     height: 40px;
     margin: 0px auto;
   }
-  
+
   .company_par {
     font-size: 16px;
   }
@@ -428,7 +438,6 @@ a {
   .github_button {
     font-size: 16px;
   }
-
 
   .contact_page {
     display: block;
@@ -458,7 +467,7 @@ a {
   }
 
   .opacity_zero {
-    opacity: 1.0;
+    opacity: 1;
   }
 
   .company_logo {
