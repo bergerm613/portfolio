@@ -12,8 +12,8 @@ class ContactPage extends Component {
         <div className="contact_words roboto">
           <div className="monospace im_glad">I'm glad you asked</div>
           <div className="contact_par">
-            I'd be happy to hear from you, so please <br />
-            feel free to reach out!
+            I'd be happy to hear from you, <br />
+            so feel free to reach out
           </div>
         </div>
 
