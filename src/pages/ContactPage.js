@@ -38,8 +38,6 @@ class ContactPage extends Component {
                         <span className="icon_words">resume</span>
                     </a>
                 </div>
-
-                {/* <div className="empty" /> */}
             </div>
         );
     }

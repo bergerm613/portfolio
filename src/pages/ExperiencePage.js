@@ -24,7 +24,7 @@ class ExperiencePage extends Component {
                     <div className="rotation_box">
                         <BoxContent
                             logo={rotation}
-                            description="world’s first streetwear rental company"
+                            description="the world’s first streetwear rental company"
                             languages="REACT | RUBY ON RAILS | FIGMA"
                             link="https://therotation.club">
                             At The Rotation, I developed user-friendly features in React and Ruby on Rails,
