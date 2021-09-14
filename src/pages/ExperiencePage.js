@@ -12,6 +12,7 @@ class ExperiencePage extends Component {
 
         <div className="box_full_width background_burnt_orange">
           <BoxContent
+            name="Quartet"
             logo={quartet}
             description="a platform that makes it easier for people to get the best mental health care for them"
             languages="REACT | TYPESCRIPT | JAVA"
@@ -28,6 +29,7 @@ class ExperiencePage extends Component {
         <div>
           <div className="box_half_width background_light_gray">
             <BoxContent
+              name="Indicative"
               logo={indicative}
               description="a customer analytics platform"
               languages="REACT | ANGULAR | TYPESCRIPT"
@@ -41,6 +43,7 @@ class ExperiencePage extends Component {
           </div>
           <div className="box_half_width background_navy">
             <BoxContent
+              name="The Rotation"
               logo={rotation}
               description="the world’s first streetwear rental company"
               languages="REACT | RUBY ON RAILS | FIGMA"
@@ -55,6 +58,7 @@ class ExperiencePage extends Component {
 
         <div className="box_full_width background_light_blue">
           <BoxContent
+            name="Girls Who Code"
             logo={gwc}
             description="nonprofit focused on the support and increase of women in computer science"
             languages="ARDUINO-C | LILYPAD ARDUINO | SOFT CURCUITS"
@@ -69,6 +73,7 @@ class ExperiencePage extends Component {
         <a
           href="https://github.com/bergerm613"
           target="_blank"
+          rel="noopener noreferrer"
           className="github_button comfortaa"
         >
           Projects on Github
@@ -82,7 +87,7 @@ const BoxContent = (props) => {
   return (
     <div className="company_wrapper">
       <div>
-        <img src={props.logo} className="company_logo" />
+        <img src={props.logo} alt={props.name} className="company_logo" />
         <div className="company_desc">{props.description}</div>
       </div>
 
@@ -92,6 +97,7 @@ const BoxContent = (props) => {
       <a
         className="opacity_zero check_it_out comfortaa"
         target="_blank"
+        rel="noopener noreferrer"
         href={props.link}
       >
         check it out

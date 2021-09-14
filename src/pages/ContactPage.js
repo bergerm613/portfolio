@@ -21,6 +21,7 @@ class ContactPage extends Component {
           <a
             href="mailto: bergerm613@gmail.com?subject=Hey, loved your website!"
             target="_blank"
+            rel="noopener noreferrer"
             className="icon_group"
           >
             <img src={email} alt="email" height="80px" className="icon_img" />
@@ -30,6 +31,7 @@ class ContactPage extends Component {
           <a
             href="https://www.linkedin.com/in/michelle-berger-46aa5818b"
             target="_blank"
+            rel="noopener noreferrer"
             className="icon_group"
           >
             <img
@@ -44,13 +46,19 @@ class ContactPage extends Component {
           <a
             href="https://github.com/bergerm613"
             target="_blank"
+            rel="noopener noreferrer"
             className="icon_group"
           >
             <img src={github} alt="github" height="80px" className="icon_img" />
             <span className="icon_words">github</span>
           </a>
 
-          <a href={resumePDF} target="_blank" className="icon_group">
+          <a
+            href={resumePDF}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="icon_group"
+          >
             <img src={resume} alt="resume" height="80px" className="icon_img" />
             <span className="icon_words">resume</span>
           </a>
