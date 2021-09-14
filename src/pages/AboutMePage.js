@@ -45,8 +45,8 @@ class AboutMePage extends Component {
               Touro College,{" "}
             </Tooltip>
             and since then had wonderful opportunities to put that theory into
-            practice, and contribute to an array of amazing teams and projects
-            (but more about that{" "}
+            practice, and contribute to many amazing teams and projects (but
+            more about that{" "}
             <Link to="/experience" className="orange_text">
               here
             </Link>

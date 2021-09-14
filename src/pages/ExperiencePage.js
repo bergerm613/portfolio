@@ -71,8 +71,7 @@ class ExperiencePage extends Component {
           target="_blank"
           className="github_button comfortaa"
         >
-          and check out my github
-          <br /> for plenty of projects!
+          Projects on Github
         </a>
       </div>
     );
