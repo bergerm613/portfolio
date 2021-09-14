@@ -420,7 +420,7 @@ a {
   }
 
   .company_logo {
-    height: 40px;
+    width: 40%;
     margin: 0px auto;
   }
 
@@ -460,10 +460,7 @@ a {
 }
 
 @media (max-width: 1105px) {
-  .rotation_box {
-    width: 84%;
-  }
-  .gwc_box {
+  .box_half_width {
     width: 84%;
   }
 
@@ -472,7 +469,7 @@ a {
   }
 
   .company_logo {
-    height: 40px;
+    width: 40%;
     margin: 0px auto;
   }
 
