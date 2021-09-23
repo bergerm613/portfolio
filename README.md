@@ -10,3 +10,4 @@ Check it out live [here](https://bergerm613.github.io/portfolio).
 clone the repo  
 run `npm install`  
 and then `npm start`
+
